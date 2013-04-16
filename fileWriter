@@ -25,7 +25,7 @@ public class MyFileWriter
 
       s1 = br.readLine();
 
-      System.out.println ("The line has " + s1.length() + " characters");
+      System.out.println ("The string has " + s1.length() + " characters");
 
       if (s1.length() == 0)
 	{
