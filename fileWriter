@@ -16,8 +16,9 @@ public class MyFileWriter
   		System.in));
 
   // Set up the output file
-  FileWtirer fw = new FileWriter ("MyFileWriter.txt");
+  FileWriter fw = new FileWriter ("MyFileWriter.txt");
   BufferedWriter bw = new BufferedWriter (fw);
+  PrintWriter pw = new PrintWriter (bw);
 
   while ( cont )
      {
